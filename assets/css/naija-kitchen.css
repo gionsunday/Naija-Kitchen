@@ -812,6 +812,34 @@ b4e354
   position: relative;
   max-width: none;
 }
+  
+.img-fill .img4 {
+  display: block;
+  background-image: url('../images/egusi-03.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 50vh !important;
+  max-height: 50vh !important;
+  min-width: 100%;
+  position: relative;
+ 
+  max-width: none;
+}
+
+.img-fill .img5 {
+  display: block;
+  background-image: url('../images/about-01.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 50vh !important;
+  max-height: 50vh !important;
+  min-width: 100%;
+  position: relative;
+ 
+  max-width: none;
+}
 .img-fill img{
   display:none
 }
