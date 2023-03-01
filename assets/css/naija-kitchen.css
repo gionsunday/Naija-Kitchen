@@ -766,6 +766,57 @@ b4e354
   background:#000;
 }
 
+.img-fill .img1{
+  display:none;
+}
+.img-fill .img2{
+  display:none;
+}
+.img-fill .img3{
+  display:none;
+}
+@media screen and (max-width:997px){
+.img-fill .img1 {
+  display: block;
+  background-image: url('../images/bf-02.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 50vh !important;
+  max-height: 50vh !important;
+  min-width: 100%;
+  position: relative;
+  max-width: none;
+}
+.img-fill .img2 {
+  display: block;
+  background-image: url('../images/bole-02.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 50vh !important;
+  max-height: 50vh !important;
+  min-width: 100%;
+  position: relative;
+  max-width: none;
+}
+.img-fill .img3 {
+  display: block;
+  background-image: url('../images/lunch-02.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 50vh !important;
+  max-height: 50vh !important;
+  min-width: 100%;
+  position: relative;
+  max-width: none;
+}
+.img-fill img{
+  display:none
+}
+
+}
 .Modern-Slider .item .info > div{
   display:inline-block!important;
   vertical-align:middle;
